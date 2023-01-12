@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIProject</name>
+    </assembly>
+    <members>
+        <member name="T:WebAPIProject.Controllers.AuthController">
+            <summary>
+            This is Authentication section
+            </summary>
+        </member>
+        <member name="T:WebAPIProject.Controllers.UserCredentialsController">
+            <summary>
+            Only Authorized Users can View Details
+            </summary>
+        </member>
+        <member name="M:WebAPIProject.Controllers.UserCredentialsController.GetUserCredential">
+            <summary>
+            Allow both Admin and User
+            </summary>
+        </member>
+        <member name="M:WebAPIProject.Controllers.UserCredentialsController.GetUserCredential(System.Int32)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+        <member name="M:WebAPIProject.Controllers.UserCredentialsController.PutUserCredential(System.Int32,WebAPIProject.Models.UserCredential)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+        <member name="M:WebAPIProject.Controllers.UserCredentialsController.PostUserCredential(WebAPIProject.Models.UserCredential)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+        <member name="M:WebAPIProject.Controllers.UserCredentialsController.DeleteUserCredential(System.Int32)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+    </members>
+</doc>
